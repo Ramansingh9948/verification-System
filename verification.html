@@ -1,0 +1,47 @@
+<!-- HTML structure for the verification page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Certificate Verification</title>
+   <link rel="stylesheet" href="design.css">     <!--  Linking the CSS File with HTML -->
+</head>
+<body>
+
+           
+<!-- Adding the Logo of Company-->
+     <navigation class="navi"> 
+        <img src="logo.jpeg" alt="Logo">
+     </navigation>
+     <h1 class="Company">Startup Media</h1>
+
+
+
+     <p>Use the keyword <b>"raman0401", "nishu2412", "gayatri2401", "Haridwar0101", "jeevan0303"</b></p>
+     <!--Heading-->
+<h1 class="heading">Internship Certificate Verification</h1>
+ 
+    <header>
+        <!-- Creating the from for the certificate number along with button-->
+        <form id="loginform">
+            <label for="certino">Certificate Number:</label>
+            <input type="text" id="certino" placeholder="Search for a candidate">
+            <button id="submit" type="submit" onclick="opacity()">Submit</button>
+        </form>
+    </header>
+
+<!--  Main content area to display certificate details  -->
+    <main id="main">
+    <h1 class="heading">Internship Certificate </h1>
+
+       <p> This certificate is given to <span class="name blue"></span></p>
+       <p> who was joined for the role of <span class="role blue"></span>  </p>
+       <p> Duration of Internship was of <span class="duration blue"></span>   </p>
+       <p class="valid green"> <span class="Certificate"></span></p>
+       
+    </main>
+
+    <script src="main.js"></script> 
+</body>
+</html>
